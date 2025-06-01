@@ -48,7 +48,7 @@ function spawnServer(){
 	});
 
 	serverChild.stdout.pipe(destStream);
-	serverChild.stdin.pipe(destStream);
+	//serverChild.stdin.pipe(destStream);
 	serverChild.stderr.pipe(destStream);
 }
 
